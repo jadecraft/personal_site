@@ -16,3 +16,6 @@ img{
 li{
     display: inline; float: left;
 }
+div{
+padding: 10%;
+}
