@@ -1,21 +1,40 @@
-h1{
-    color:white; text-align: center; background-color:cadetblue; padding: 5%; font-size: 300%;
-} 
-body{
-    background-color: aliceblue;
+h1 {
+  color: white;
+  text-align: center;
+  background-color: cadetblue;
+  padding: 5%;
+  font-size: 300%;
 }
-h2{
-    text-align: center; font-weight: normal; padding: 5%;
+body {
+  background-color: aliceblue;
 }
-a {
-    font-size: 150%; font-weight: bold; color: black; display: block; padding: 10px; float: left; background-color: blanchedalmond;
+h2 {
+  text-align: center;
+  font-weight: normal;
+  padding: 5%;
 }
-img{
-    width: 350px; padding: 0%; margin: auto; display: block;
+img {
+  width: 350px;
+  padding: 0%;
+  margin: auto;
+  display: block;
 }
-li{
-    display: inline; float: left;
+li {
+  display: inline;
+  float: left;
 }
-div{
-padding: 10%;
+div {
+  border-color: black;
+  font-size: 100%;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  float: left;
+  background-color: blanchedalmond;
+}
+.grid{
+    display: grid;
+}
+.grid > div:nth-child(1) {
+background-color:cadetblue;
 }
